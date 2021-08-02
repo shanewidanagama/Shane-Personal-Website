@@ -1,4 +1,7 @@
-//execute pinNavbar when user scrolls
+$(document).ready(function() {
+    // put your Javascript here
+  
+  //execute pinNavbar when user scrolls
 window.onscroll = function() {pinNavbar()};
 
 //get navBar
@@ -15,3 +18,5 @@ else {
 navbar.classList.remove("sticky");
 }
 }
+});
+
