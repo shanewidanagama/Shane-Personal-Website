@@ -1,169 +1,168 @@
-
 body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        background-color: whitesmoke;
-      }
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0.05rem 1rem;
+  background-color: #1B1B1B;
+  color: whitesmoke;
+}
 
 img {
   max-width: 100%;
   display: block;
 }
 
-      .header {
-          display: flex;
-          /* flex-direction: column; */
+.header {
+  display: flex;
+  background-color: #1B1B1B;
+  padding: 0;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-/*   background-image: url("https://i.imgur.com/KWxqbtU.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/pw/AM-JKLXZA-EuNoD4nhZ3A0Efj9Or5jUutSkdghl6otRHwt41noUPNONecUqQ9UIqURevfdit2Mo9VFND08TrG4706j-jVumu8bfYRZNWHjDreTJTUDzTbP6FAURIdKpaWVIm8QgSGEUHe9o92IOXANDC9_4G=w1143-h643-no?authuser=0");
   background-repeat: no-repeat;
-  background-position: center;  background-size: 40%; */
-/*         background: #C19A6B; */
-
-      }
-
-h1 {
-        text-align: center;
-        padding: 1em;
-      }
-      
-ul {
-  padding-left: 5em;
-padding-right: 5em;
+  height: 90vh;
+  background-size: cover;
+  color: whitesmoke;
 }
 
-      #navbar {
-        overflow: hidden;
-      }
+h1 {
+  text-align: center;
+  padding: 1em;
+  font-size: 2.5rem;
+}
 
-      #navbar a {
-        float: left;
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        padding: 0.8em 1.2em;
-        color: tomato;
-      }
+p {
+  font-size: 1.1rem;
+}
 
-      #navbar a:hover {
-        /* background: skyblue; */
-        /* color: #3c1321; */
-        font-weight: bold;
-      }
-      
-/*       .content {
-        padding: 16px;
-      } */
-      
-      .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-      
-      .sticky + .content {
-        padding-top: 20px;
-      }
+/* center unordered list */
+ul {
+  display: table;
+  margin: 0 auto;
+}
 
-      /* span {
-  font-size: 50px;
-} */
+li {
+  font-size: 1.1rem;
+}
 
-      /* size boxes */
-      * {
-        box-sizing: border-box;
-      }
+#navbar {
+  overflow: hidden;
+  background: #1B1B1B;
+}
 
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 1em;
-      }
+#navbar a {
+  background: #1B1B1B;
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em 1.2em;
+  color: #ff2626;
+}
 
-      .side {
-        flex: 30%;
-        padding: 3.5%;
-      }
+#navbar a:hover {
+  background: #ff2626;
+  color: white;
+}
 
-      .main {
-        flex: 70%;
-        padding: 3.5%;
-      }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-      .subtitle {
-        flex: 100%;
-      }
+.sticky+.content {
+  padding-top: 1rem;
+}
 
-      /* stack side by side content on top of each other when screen width is less than 480px */
-      @media screen and (max-width: 480px) {
-        .row {
-          flex-direction: column;
-        }
-      }
+/* size boxes */
+* {
+  box-sizing: border-box;
+}
 
-      /* stack navbar links on top of each other when screen width is less than 400px */
-      @media screen and (max-width: 400px) {
-        .navbar a {
-          float: none;
-          width: 100%;
-        }
-      }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 1em;
+}
 
-      .footer {
-        padding: 1em;
-        text-align: center;
-        background: #3c1321;
-        color: whitesmoke;
-      }
-      
-      .container {
-        /* display: flex; */
-        display: grid;
-        /* grid-template-columns: 1fr 1fr 1fr; */
-        /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-        /* grid-template-rows: 1fr 1fr; */
-        /* flex-wrap: wrap; */
-          max-width: 940px;
+.side {
+  flex: 30%;
+  padding: 3.5%;
+}
+
+.main {
+  flex: 60%;
+  padding: 3.5%;
+}
+
+.subtitle {
+  flex: 100%;
+}
+
+/* stack side by side content on top of each other when screen width is less than 480px */
+@media screen and (max-width: 480px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* stack navbar links on top of each other when screen width is less than 400px */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.email {
+  font-size: 2em;
+  background-color: #ff2626;
+  border-radius: 0.4em;
+  margin: 1em;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card {
+  background-color: limegreen;
+  color: white;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.cards {
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-        background-color: skyblue;
-        /* justify-content: space-between; */
-        border-radius: 0.4em;
-      }
-      
-      .container > div {
-        background-color: DodgerBlue;
-        margin: 1rem;
-        padding: 2em;
-        border-radius: 0.4em;
-      }
-      
-      #brownie {
-        /* filter: url(https://www.cookingclassy.com/wp-content/uploads/2019/05/brownies-22-768x1152.jpg)
-                        background-image: url(https://www.cookingclassy.com/wp-content/uploads/2019/05/brownies-22-768x1152.jpg); */
-/* background-repeat:no-repeat;
-   background-size:contain; */}
-   
-   .CTA {
-     width: 50%;
-     height: 20%
-   }
-  .email {
-    font-size: 2em;
-    
-    background-color: #ff2626;
-    border-radius: 0.4em;
-    /* width: 80%; */
-    /* align-content: right; */
-    margin: auto;
-    /* margin-bottom: 4em; */
-    padding: 1em;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    
+  grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* call to action button */
+.CTA {
+  display: block;
+  font-size: 2.5em;
+  background-color: #ff2626;
+  border-radius: 0.4em;
+  margin: 10vh;
+  /* margin-bottom: 4em; */
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
