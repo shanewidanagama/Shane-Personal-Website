@@ -1,6 +1,6 @@
 # Shane-Personal-Website-WIP
 
-A website to showcase my professional and educational achievement. 
+A website to showcase my professional and educational achievement. Viewable on mobile and desktop devices.
 
 Used HTML, CSS, and JavaScript.
 
