@@ -100,6 +100,10 @@ li {
   flex: 100%;
 }
 
+#projects a {
+  color: #1A72E8;
+  text-decoration: none;
+}
 /* stack side by side content on top of each other when screen width is less than 480px */
 @media screen and (max-width: 480px) {
   .row {
