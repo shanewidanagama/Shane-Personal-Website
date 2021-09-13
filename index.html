@@ -4,7 +4,7 @@
   <head>
     <title>Shane Widanagama</title>
     <meta charset="UTF-8">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles/index.css">
     <script type="text/javascript" src="scripts/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,104 +21,102 @@
 
     <div class="content">
 
-      <div class='header'>
+      <div class="header">
         <h1>I am Shane. A software developer.</h1>
         <a class="email" href="mailto:shanewidanagama@trentu.ca">
           Contact Me</a>
       </div>
 
-      <div class="column">
+      <h1 id="about-me">About Me</h1>
 
-        <h1 id="about-me">About Me</h1>
+      <div class="row">
 
-        <div class="row">
+        <div class="side">
+          <img src="img/profile-pic.jpg" alt="profile pic">
 
-          <div class="side">
-            <img src="img/profile-pic.jpg" alt="profile pic">
+        </div>
+        <div class="main">
+          <p>My name is Shane. I am a software developer that is proficient in
+            requirements gathering, software design, and implementation</p>
+          <h3>Web development</h3>
+          <p>I have been designing and implementing web applications for 2 years. I am proficient in JavaScript, HTML, CSS and have experience with React, and Git.</p>
+          <h3>Bioinformatics</h3>
+          <p>My work experience in bioinformatics has made me skilled at problem-solving and troubleshooting, as things rarely go smoothly in research. I can handle and manipulate large datasets, perform shell scripting, and write step-by-step documentation and publication-quality papers.</p>
+        </div>
+      </div>
 
-          </div>
-          <div class="main">
-            <p>My name is Shane. I am a software developer that is proficient in
-              requirements gathering, software design, and implementation</p>
-            <h3>Web development</h3>
-            <p>I have been designing and implementing web applications for 2 years. I am proficient in JavaScript, HTML, CSS and have experience with React, and Git.</p>
-            <h3>Bioinformatics</h3>
-            <p>My work experience in bioinformatics has made me skilled at problem-solving and troubleshooting, as things rarely go smoothly in research. I can handle and manipulate large datasets, perform shell scripting, and write step-by-step documentation and publication-quality papers.</p>
-          </div>
+      <h1 id="education">Education History</h1>
+      <ul>
+        <li>Honors B.Sc. Joint Major in Computer Science and Biology</li>
+        <li>3.8 GPA (88%)</li>
+        <li>Two-time winner of the NSERC Undergraduate Student Research Award</li>
+        <li>Joseph Goodhead Award, for pioneer work in the field of water pollution</li>
+        <li>Courses:
+          <ul>
+            <li>Web App Development (94%)</li>
+            <li>Software Design and Modelling (91%)</li>
+            <li>Software Specification and Development (90%)</li>
+            <li>Data Structures and Algorithms (78%)</li>
+            <li>Advanced Algorithms (75%)</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h1 id="projects">
+        Projects
+      </h1>
+      <div class="cards">
+        <div class="card"><a href="https://github.com/shanewidanagama/SimpleParallax.js-explanation">SimpleParallax.js Tutorial</a>
+          <p>
+            A tutorial explaining how to use the simpleParallax.js library to create various parallax effects as the user scrolls through your webpage.<br>Used JavaScript, HTML, CSS.
+          </p>
+        </div>
+        <div class="card"><a href="https://github.com/shanewidanagama/Dragon-Ball-Z-Quiz-PHP">Dragon Ball Z Quiz App</a>
+          <p>
+            Multi-page web app that quizzes you on DBZ characters. On the response breakdown page it records whether the user entered the correct answer, as well as the actual answer if not. The username user entered at the beginning and their score is added to the database and can be viewed on the high score board!<br>Used PHP and runs from phpMyAdmin.</p>
         </div>
 
-        <h1 id="education">Education History</h1>
-        <ul>
-          <li>Honors B.Sc. Joint Major in Computer Science and Biology</li>
-          <li>3.8 GPA (88%)</li>
-          <li>Two-time winner of the NSERC Undergraduate Student Research Award</li>
-          <li>Joseph Goodhead Award, for pioneer work in the field of water pollution</li>
-          <li>Courses: 
-            <ul>
-              <li>Web App Development (94%)</li>
-              <li>Software Design and Modelling (91%)</li>
-              <li>Software Specification and Development (90%)</li>
-              <li>Data Structures and Algorithms (78%)</li>
-              <li>Advanced Algorithms (75%)</li>
-            </ul>
-        </ul>
-        
-        <h1 id="projects">
-          Projects
-        </h1>
-        <div class="cards">
-            <div class="card"><a href="https://github.com/shanewidanagama/SimpleParallax.js-explanation">SimpleParallax.js Tutorial</a>
-            <p>
-              A tutorial explaining how to use the simpleParallax.js library to create various parallax effects as the user scrolls through your webpage.<br>Used JavaScript, HTML, CSS. 
-            </p>
-          </div>
-          <div class="card"><a href="https://github.com/shanewidanagama/Dragon-Ball-Z-Quiz-PHP">Dragon Ball Z Quiz App</a>
-            <p>
-Multi-page web app that quizzes you on DBZ characters. On the response breakdown page it records whether the user entered the correct answer, as well as the actual answer if not. The username user entered at the beginning and their score is added to the database and can be viewed on the high score board!<br>Used PHP and runs from phpMyAdmin.</p>
-          </div>
-          
-          <div class="card"><a href="flightSharingAppStudy.pdf">FutureAir "Flight Sharing" App Feasibility and Software Requirements Study</a>
-            <p>
-              Conducted a thorough feasibility study, explored business use case (BUC) scenarios, performed requirements specification, and designed a comprehensive solution.
-            </p>
-          </div>
-          
-              <div class="card"><a href="https://github.com/shanewidanagama/DBZ-Character-REST-API">DBZ Encyclopedia API</a>
-            <p>
-              Created a REST API that allows users to access information about their favorite Dragon Ball Z characters. This API can do multiple things. It can list all there is to know about a character. It can tell which alien race your favorite character belongs to. It can even tell you who's stronger than who!<br>Used PHP, HTML, and CSS.
-            </p>
-          </div>
-          
-       
-<!--             <div class="card">React Habit Tracker
+        <div class="card"><a href="flightSharingAppStudy.pdf">FutureAir "Flight Sharing" App Feasibility and Software Requirements Study</a>
+          <p>
+            Conducted a thorough feasibility study, explored business use case (BUC) scenarios, performed requirements specification, and designed a comprehensive solution.
+          </p>
+        </div>
+
+        <div class="card"><a href="https://github.com/shanewidanagama/DBZ-Character-REST-API">DBZ Encyclopedia API</a>
+          <p>
+            Created a REST API that allows users to access information about their favorite Dragon Ball Z characters. This API can do multiple things. It can list all there is to know about a character. It can tell which alien race your favorite character belongs to. It can even tell you who's stronger than who!<br>Used PHP, HTML, and CSS.
+          </p>
+        </div>
+
+
+        <!--             <div class="card">React Habit Tracker
             <p> A habit tracker web app made using React hooks with create, read, update, delete functionality. </div>
           </div> -->
-                  </div>
+      </div>
 
-        <h1 id="skills">
-          Skills
-        </h1>
+      <h1 id="skills">
+        Skills
+      </h1>
 
-        <div class="cards">
-          <div class="card">JavaScript</div>
-          <div class="card">HTML5</div>
-          <div class="card">CSS</div>
-          <div class="card">SQL</div>
-          <div class="card">PHP</div>
-          <div class="card">Git</div>
-          <div class="card">Java</div>
-          <div class="card">C#</div>
-          <div class="card">Linux</div>
-          <div class="card">Shell Scripting (BASH)</div>
-        </div>
+      <div class="cards">
+        <div class="card">JavaScript</div>
+        <div class="card">HTML5</div>
+        <div class="card">CSS</div>
+        <div class="card">SQL</div>
+        <div class="card">PHP</div>
+        <div class="card">Git</div>
+        <div class="card">Java</div>
+        <div class="card">C#</div>
+        <div class="card">Linux</div>
+        <div class="card">Shell Scripting (BASH)</div>
+      </div>
 
-        <h1 id="contact-me">
-          Contact Me
-        </h1>
+      <h1 id="contact-me">
+        Contact Me
+      </h1>
 
-        <div class="contacts">
-          <a class="CTA" href="mailto:shanewidanagama@trentu.ca">Contact Me!</a>
-        </div>
+      <div class="contacts">
+        <a class="CTA" href="mailto:shanewidanagama@trentu.ca">Contact Me!</a>
       </div>
     </div>
   </body>
