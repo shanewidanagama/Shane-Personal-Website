@@ -2,7 +2,7 @@
 
 A website to showcase my professional and educational achievement.
 
-Used HTML, CSS, and JavaScript.
+Used HTML, CSS, and JavaScript, jQuery.
 
 See it here! https://shanewidanagama.netlify.app/
 
