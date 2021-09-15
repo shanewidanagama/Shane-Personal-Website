@@ -1,8 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0.05rem 1rem;
-  background-color: #1B1B1B;
+    background-color: #1B1B1B;
   color: whitesmoke;
 }
 
@@ -55,7 +54,7 @@ li {
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: 1em 1.2em;
+  padding: 0.8em;
   color: #ff2626;
 }
 
@@ -64,15 +63,19 @@ li {
   color: white;
 }
 
+.content {
+  padding: none;
+}
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.sticky+.content {
-  padding-top: 1rem;
-}
+/* .sticky+ .content {
+  padding-top: 14px;
+} */
 
 /* size boxes */
 * {
@@ -142,6 +145,11 @@ li {
   margin: 0 auto;
   display: grid;
   grid-gap: 1rem;
+}
+
+#dbzapi {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/shanewidanagama/DBZ-Character-API/raw/5e290d821cfd0ca0304df589527fbbbae8f246e8/api-pic.png);
+  background-size: cover;
 }
 
 @media (min-width: 600px) {
