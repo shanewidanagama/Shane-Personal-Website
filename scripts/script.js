@@ -1,21 +1,22 @@
-$(document).ready(function() {
-    // put your Javascript here
-  
-  //execute pinNavbar when user scrolls
-window.onscroll = function() {pinNavbar()};
+//the below code is currently not needed as the sticky class can used at all
+//times.
 
-//get navBar
-var navbar = document.getElementById("navbar");
-//get navbar offest position
-var sticky = navbar.offsetTop;
+// $(document).ready(function() {  
+//   //execute pinNavbar when user scrolls
+// window.onscroll = function() {pinNavbar()};
 
-//add 'sticky' class when scrolling. remove when in starting postion
-function pinNavbar() {
-if(window.pageYOffset >= sticky) {
-navbar.classList.add("sticky");
-}
-else {
-navbar.classList.remove("sticky");
-}
-}
-});
+// //get navBar
+// var navbar = document.getElementById("navbar");
+// //get navbar offest position
+// var sticky = navbar.offsetTop;
+
+// //add 'sticky' class when scrolling. remove when in starting postion
+// function pinNavbar() {
+// if(window.pageYOffset >= sticky) {
+// navbar.classList.add("sticky");
+// }
+// else {
+// navbar.classList.remove("sticky");
+// }
+// }
+// });
