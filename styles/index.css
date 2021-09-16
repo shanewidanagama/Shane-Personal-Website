@@ -140,6 +140,13 @@ li {
   font-size: 1.1rem;
 }
 
+.card a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: limegreen;
+  background-color: white;
+}
+
 .cards {
   max-width: 1200px;
   margin: 0 auto;
