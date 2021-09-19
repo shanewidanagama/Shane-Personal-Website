@@ -147,7 +147,7 @@ a {
 }
 
 .card {
-  background-color: orange;
+  background-color: #ff2626;
   color: white;
   padding: 1rem;
   font-size: 1.1rem;
@@ -159,12 +159,12 @@ a {
   text-decoration: underline;
   font-weight: bold;
   color: white;
-  background-color: orange;
+  background-color: #ff2626;
 }
 
 .card a:hover {
   background-color: white;
-  color: orange;
+  color: #ff2626;
 }
 
 .cards {
