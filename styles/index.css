@@ -22,7 +22,7 @@ img {
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/pw/AM-JKLXZA-EuNoD4nhZ3A0Efj9Or5jUutSkdghl6otRHwt41noUPNONecUqQ9UIqURevfdit2Mo9VFND08TrG4706j-jVumu8bfYRZNWHjDreTJTUDzTbP6FAURIdKpaWVIm8QgSGEUHe9o92IOXANDC9_4G=w1143-h643-no?authuser=0");
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   color: white;
 }
@@ -174,7 +174,7 @@ a {
   grid-gap: 1rem;
 }
 
-#dbzapi {
+#dbz-api {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/shanewidanagama/DBZ-Character-API/raw/5e290d821cfd0ca0304df589527fbbbae8f246e8/api-pic.png);
   background-size: cover;
 }
