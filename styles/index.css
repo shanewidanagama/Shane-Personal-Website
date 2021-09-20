@@ -179,6 +179,20 @@ a {
   background-size: cover;
 }
 
+#dbz-quiz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/shanewidanagama/Dragon-Ball-Z-Quiz-PHP/blob/47a073686e2beb30bf64ab52b73daf3fc40f8b4a/dbz-quiz-pic-3.png);
+  background-size: cover;
+}
+/* 
+#simple-parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url();
+  background-size: cover;
+}
+
+#app-study {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url();
+  background-size: cover; */
+}
 @media (min-width: 600px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
